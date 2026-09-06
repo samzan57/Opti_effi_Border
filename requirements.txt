@@ -1,0 +1,15 @@
+numpy
+pandas
+scipy
+matplotlib
+yfinance
+curl_cffi
+urllib3
+python-dotenv
+pytest
+
+# Client officiel de l'API TWS d'Interactive Brokers — requis uniquement pour
+# la récupération de positions et l'exécution d'ordres (src/recuperer_positions.py,
+# src/execution.py). Le reste du projet (optimisation, risque, backtest) n'en a pas besoin.
+# Si `pip install ibapi` échoue, installe-le depuis le TWS API Guide officiel IBKR.
+ibapi
